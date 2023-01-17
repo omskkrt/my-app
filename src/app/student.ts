@@ -7,7 +7,7 @@ export interface Student {
   nationality: string,
   address: string,
   sex: "Male"|"Female",
-  status: string,
+  status: "Single" | "Married",
   elementary: string,
   highSchool: string,
   college?: string,

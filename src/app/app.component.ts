@@ -49,7 +49,7 @@ export class AppComponent {
     nationality: "Filipino",
     address: "Calatrava, Negros Occidental",
     sex: 'Female',
-    status: "Widowed",
+    status: 'Single',
     elementary: " Calatrava II Central School",
     highSchool: "Calatrava Senior High School",
     college: "University of San Carlos",

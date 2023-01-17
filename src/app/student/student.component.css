@@ -35,7 +35,7 @@ hr{
   width: 250px;
   margin: 5px 15%;
 }
-h3{
+#name{
   display: flex;
   justify-content: center;
 }
