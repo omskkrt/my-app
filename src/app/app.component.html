@@ -15,7 +15,10 @@
 <!-- <app-second (secondOutput)="receiveEvent()"></app-second>
 <app-first [firstInput]="numberValue"></app-first> -->
 
+<!--+++++++++++++++++++++++++++++++ Another Topic++++++++++++++++++++++=-->
+
 <div *ngFor="let student of studentList">
+  <!--***** NOTE :to call the student component kay gi property binding siya *****-->
   <app-student [studentIn]="student"></app-student>
   <!-- <h3>Name: {{student.firstName}} {{student.lastName}}</h3>
   <p>Nationality: {{student.nationality}}</p>
