@@ -7,6 +7,7 @@ import { Student } from '../student';
   templateUrl: './student.component.html',
   styleUrls: ['./student.component.css']
 })
+// the exclamation mark(!) is to identify that we are just creating a (IDK) heheef.
 export class StudentComponent {
   @Input() studentIn!: Student
 }

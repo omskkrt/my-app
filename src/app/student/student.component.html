@@ -1,9 +1,21 @@
-<div>
-  <h3>Name: {{studentIn.firstName}} {{studentIn.lastName}}</h3>
-  <hr>
-  <p>Nationality: {{studentIn.nationality}}</p>
-  <p>Age: {{studentIn.age}}</p>
-  <p *ngIf="studentIn.address">Address: {{studentIn.address}}</p>
-  <p>Sex: {{studentIn.sex}}</p>
-  <br>
-</div>
+
+<body>
+  <div class="mother">
+    <h3>{{studentIn.firstName}} {{studentIn.lastName}}</h3>
+    <hr>
+    <p>Nationality: {{studentIn.nationality}}</p>
+    <p>Age: {{studentIn.age}}</p>
+    <p>Address: {{studentIn.address}}</p>
+    <p>Sex: {{studentIn.sex}}</p>
+    <p>Status: {{studentIn.status}}</p>
+    <div class="daughter">
+      <h3>Education Background</h3>
+      <p>Elementary: {{studentIn.elementary}}</p>
+      <p>Highschool: {{studentIn.highSchool}}</p>
+      <p *ngIf="studentIn.college">College: {{studentIn.college}}</p>
+      <p *ngIf="studentIn.degree">Degree: {{studentIn.degree}}</p>
+    </div>
+    <br>
+  </div>
+</body>
+

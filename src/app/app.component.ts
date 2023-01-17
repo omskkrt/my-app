@@ -9,7 +9,7 @@ import { Student } from './student';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Vanessa H. Sagolili';
+  title = 'Angular 3rd Activity (Pelingon & Sagolili)';
   // isDisabled = false;
   // inputValue = "";
   // numberValue = 0;
@@ -29,12 +29,17 @@ export class AppComponent {
 
   studentList:Student[] = [{
     id:0,
-    lastName: "Vanessa",
-    firstName: "Sagolili",
+    lastName: "Sagolili",
+    firstName: "Vanessa",
     age:21,
     nationality: "Filipino",
-    address: "",
-    sex: 'Female'
+    address: "Mahanay, Talibon, Bohol",
+    sex: 'Female',
+    status: "Single",
+    elementary: "Mahanay Elementary School",
+    highSchool: "San Jose National High School",
+    college: "University of San Carlos",
+    degree: "Certificate in Computer Technology"
   },
   {
     id:1,
@@ -42,16 +47,27 @@ export class AppComponent {
     firstName: "Pelingon",
     age:21,
     nationality: "Filipino",
-    address: "Negros",
-    sex: 'Female'
+    address: "Calatrava, Negros Occidental",
+    sex: 'Female',
+    status: "Widowed",
+    elementary: " Calatrava II Central School",
+    highSchool: "Calatrava Senior High School",
+    college: "University of San Carlos",
+    degree: "Certificate in Computer Technology"
   },
   {
     id:2,
-    lastName: "Jhon ",
-    firstName: "Doe",
+    lastName: "Doe ",
+    firstName: "John",
     age:28,
     nationality: "American",
     address: "California",
-    sex: 'Male'
+    sex: 'Male',
+    status: "Married",
+    elementary: "California Primary School",
+    highSchool: "California High School",
+    college: "",
+    degree: ""
+
   }]
 };
