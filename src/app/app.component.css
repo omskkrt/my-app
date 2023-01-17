@@ -1,0 +1,14 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1{
+    color: blue;
+}
+.name{
+    font-weight: bold;
+}
+input{
+    margin: 20px;
+    border: none;
+}

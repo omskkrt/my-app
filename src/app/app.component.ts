@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
-}
+  title = 'Vanessa H. Sagolili';
+  isDisabled = false;
+  inputValue = "";
+  numberValue = 0;
+
+  sampleButton(){
+    console.log(this.inputValue)
+  };
+
+  increaseValue(){
+    this.numberValue++
+    this.inputValue = this.numberValue.toString()
+  };
+
+  receiveEvent(){
+    console.log("test in app component.")
+  }
+};
