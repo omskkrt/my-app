@@ -33,7 +33,7 @@ h2{
   font-size: 40px;
   font-weight: bolder;
   padding: 20px;
-  background-image: linear-gradient(red,blue,orange);
+  background-image: linear-gradient(pink,purple,blue);
   background-clip: text;
   color: transparent;
 }
