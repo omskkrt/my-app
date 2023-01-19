@@ -1,2 +1,9 @@
-<p>second works </p>
-<button (click)="passEvent()">Pass Event</button>
+<!-- <p>second works </p> -->
+<!-- <button (click)="passEvent()">Pass Event</button> -->
+<h3>Album</h3>
+<div *ngFor="let album of albums">
+  <p>ID: {{album.id}}</p>
+  <h5>UserID: {{album.userId}}</h5>
+  <h4>Title: {{album.title}}</h4>
+
+</div>
