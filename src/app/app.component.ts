@@ -10,6 +10,7 @@ import { Student } from './student';
 })
 export class AppComponent {
   title = 'Angular 3rd Activity (Pelingon & Sagolili)';
+  isAddStudent = false;
   // isDisabled = false;
   // inputValue = "";
   // numberValue = 0;
@@ -70,4 +71,13 @@ export class AppComponent {
     degree: ""
 
   }]
+
+  addStudent(student: Student){
+    // console.log(student);
+    this.studentList.push(student);
+    this.isAddStudent = false;
+  }
+  addNewStudent(){
+    this.isAddStudent = true;
+  }
 };

@@ -11,6 +11,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+
 }
 .samp{
   padding-left: 35px;
@@ -37,4 +38,6 @@ h2{
   background-clip: text;
   color: transparent;
 }
-
+a{
+  margin: 10px;
+}

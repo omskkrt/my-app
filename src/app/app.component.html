@@ -1,11 +1,35 @@
 <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');</style>
 
 <body>
+
   <h2 id="title">{{title}}</h2>
-  <div *ngFor="let student of studentList" class="samp">
-    <app-student [studentIn]="student"></app-student>
+  <!--ang $event ga expect ug value sa student-->
+
+  <!-- <div *ngIf="!isAddStudent">
+    <h2>Students List</h2>
+    <button (click)="addNewStudent()">Add New Student</button>
+    <div *ngFor="let student of studentList" class="samp">
+      <app-student [studentIn]="student"></app-student>
+    </div>
   </div>
+  <div *ngIf="isAddStudent">
+    <app-add-student (studentOut)="addStudent($event)"></app-add-student>
+  </div> -->
+
+  <nav>
+    <ul>
+      <li>
+        <a routerLink="/first-component">First Component</a>
+        <a routerLink="/second-component">Second Component</a>
+        <a routerLink="/third-component">Third Component</a>
+        <a routerLink="/fourth-component">Fourth Component</a>
+      </li>
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
 </body>
+
+
 
 <!-- <h1>First Angular Project</h1> -->
 <!-- <p class="name">Hello! Welcome to my Project!</p> -->
